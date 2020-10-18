@@ -1,21 +1,48 @@
-När använder man add respektive commit?
+G-frågor
+
+1. När använder man add respektive commit?
+
 add är när man lägger till filer i staging arean, och commit
 lägger sedan till en comment på det som ligger i staging arean
 så att folk kan sedan förstå vad som har lagts till
 
-Vad är pull respektive push?
+2. Vad är pull respektive push?
+
 pull är när man hämtar ifrån git-repositories medans push är
 när man lägger upp till ett git-repository
 
-När använder man log respektive status?
+3.När använder man log respektive status?
+
 Du använder log när du vill se loggen av alla commitsen
 till repositoryn för att se alla kommentarer. status
 används när du vill se om det ligger något i staging arean
 eller om det finns odokumenterade filer i din local repository.
 
-Hur kan man formulera sig i sina commit-meddelanden?
+4. Hur kan man formulera sig i sina commit-meddelanden?
+
 Man ska vara så tydlig som möjligt och få ut den viktiga
 informationen i ett koncist meddelande som är lätt att förstå
 för dem du arbetar med. t.ex. om du skapat en main metod till
 Car.java kan du skriva "Added a main-method for the Car class".
 Sedan om du ändrar något så skriver du vad du har ändrat i den.
+
+----
+VG-Frågor
+
+5.Det finns flera sätt att rulla tillbaka koden till ett tidigare tillstånd.
+Förklara skillnaden och motivera när man skulle använda den ena eller andra 
+metoden. Ge gärna exempel på de kommandon du använder för att göra detta och visa
+att det fungerar, vilken output du fick från git-kommandona.
+
+
+git stash är en av metoderna du kan använda för att gå tillbaks i versioner av din kod.
+med hjälp av stash pop så kan du lägga till en tidigare version i koden.
+Detta är användbart när man vill använda en bit av en äldre kod och kombinera
+den med den senaste versionen av koden.
+
+git reset är en annan metod som rullar dig tillbaks
+till en tidigare version av din kod. Detta är användbart då du kanske endast
+behöver ha en äldre version då du kanske har övergjort din kod.
+
+
+
