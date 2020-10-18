@@ -1,0 +1,21 @@
+När använder man add respektive commit?
+add är när man lägger till filer i staging arean, och commit
+lägger sedan till en comment på det som ligger i staging arean
+så att folk kan sedan förstå vad som har lagts till
+
+Vad är pull respektive push?
+pull är när man hämtar ifrån git-repositories medans push är
+när man lägger upp till ett git-repository
+
+När använder man log respektive status?
+Du använder log när du vill se loggen av alla commitsen
+till repositoryn för att se alla kommentarer. status
+används när du vill se om det ligger något i staging arean
+eller om det finns odokumenterade filer i din local repository.
+
+Hur kan man formulera sig i sina commit-meddelanden?
+Man ska vara så tydlig som möjligt och få ut den viktiga
+informationen i ett koncist meddelande som är lätt att förstå
+för dem du arbetar med. t.ex. om du skapat en main metod till
+Car.java kan du skriva "Added a main-method for the Car class".
+Sedan om du ändrar något så skriver du vad du har ändrat i den.
